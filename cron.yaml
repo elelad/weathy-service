@@ -1,0 +1,12 @@
+cron:
+#- description: "keep the instance alive"
+  #url: /keepInstance
+  #schedule: every 2 minutes
+
+##- description: "schedule tasks"
+  #url: /schedule
+  #schedule: every 10 minutes
+
+- description: "run tasks"
+  url: /
+  schedule: every 1 minutes
